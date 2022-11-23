@@ -51,8 +51,6 @@ public class SceneController : MonoBehaviour
         }
     }
 
-
-
     void Update()
     {
         
@@ -85,7 +83,7 @@ public class SceneController : MonoBehaviour
         else
         {
             secondRevealed = card;
-            Debug.Log("Match? " + (firstRevealed.Id == secondRevealed.Id));
+            //Debug.Log("Match? " + (firstRevealed.Id == secondRevealed.Id));
             StartCoroutine(CheckMatch());
         }
     }

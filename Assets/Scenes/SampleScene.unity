@@ -825,7 +825,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardBack: {fileID: 129396568}
-  image: {fileID: 21300000, guid: 284140eafe0c24b4bbd8ed592ba62c3e, type: 3}
   controller: {fileID: 1682068150}
 --- !u!61 &1951165169
 BoxCollider2D:
