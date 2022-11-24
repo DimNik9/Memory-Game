@@ -49,4 +49,11 @@ public class MemoryCard : MonoBehaviour
         cardBack.SetActive(true);
     }
 
+    public IEnumerator Reveal()
+    {
+        cardBack.SetActive(false);
+        yield return new WaitForSeconds(1.5f);
+        cardBack.SetActive(true);
+    }
+
 }

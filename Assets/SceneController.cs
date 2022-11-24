@@ -47,6 +47,7 @@ public class SceneController : MonoBehaviour
                 float posX = (offsetX * i) + startPos.x;
                 float posY = -(offsetY * j) + startPos.y;
                 card.transform.position = new Vector3(posX, posY, startPos.z);
+                StartCoroutine(card.Reveal());
             }
         }
     }
