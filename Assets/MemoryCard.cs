@@ -52,7 +52,7 @@ public class MemoryCard : MonoBehaviour
     public IEnumerator Reveal()
     {
         cardBack.SetActive(false);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2f);
         cardBack.SetActive(true);
     }
 
